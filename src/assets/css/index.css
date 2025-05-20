@@ -81,8 +81,9 @@ ul {
 }
 
 /* ^HEADER */
-header {
-  padding: 30px;
+.page-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 header .col-1-5 img {
@@ -120,4 +121,38 @@ header a {
 }
 
 /* ^MAIN */
+.main-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+
+.main-subscription {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0282f9;
+}
+
+.main-subscription .row {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-subscription .image-links {
+  display: flex;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.main-subscription .image-links img {
+  width: 50px;
+}
+
+.main-subscription .image-links a {
+  font-size: 0.9rem;
+  color: white;
+}
+
 /* ^FOOTER */
