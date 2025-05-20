@@ -1,7 +1,9 @@
+// Imports
 import Header from "./components/Header.jsx";
 import MainContent from "./components/MainContent.jsx";
 import MainSubscription from "./components/MainSubscription.jsx";
-import Footer from "./components/Footer.jsx";
+import FooterReferences from "./components/FooterReferences.jsx";
+import FooterSocials from "./components/FooterSocials.jsx";
 
 export default function App() {
   return (
@@ -9,7 +11,8 @@ export default function App() {
       <Header />
       <MainContent />
       <MainSubscription />
-      <Footer />
+      <FooterReferences />
+      <FooterSocials />
     </>
   );
 }

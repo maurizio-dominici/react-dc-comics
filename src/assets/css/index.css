@@ -1,7 +1,7 @@
 /* ^===================CUSTOM PROPS=================== */
 :root {
-  --player-height: 90px;
-  --sidebar-width: 50px;
+  --footer-references-height: 70%;
+  --footer-socials-height: 30%;
   --main-content-height: 100%;
   --main-content-top-height: 100px;
 }
@@ -82,8 +82,8 @@ ul {
 
 /* ^HEADER */
 .page-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 header .col-1-5 img {
@@ -124,7 +124,7 @@ header a {
 .main-content {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: black;
+  background-color: #1c1c1c;
   color: white;
 }
 
@@ -156,3 +156,15 @@ header a {
 }
 
 /* ^FOOTER */
+
+#references {
+  background-image: url("/footer-bg.jpg");
+}
+
+#references h4 {
+  color: white;
+}
+
+#socials {
+  background-color: #303030;
+}
