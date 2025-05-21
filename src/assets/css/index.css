@@ -128,6 +128,10 @@ header a {
   color: white;
 }
 
+.main-content .row {
+  justify-content: center;
+}
+
 .main-subscription {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -208,4 +212,37 @@ header a {
 
 #socials .icons h5 {
   color: #0282f9;
+}
+
+/* ^ ALERT */
+
+.minialert {
+  padding: 30px;
+  background-color: aqua;
+  color: red;
+  border-radius: 30px;
+}
+
+.yellow {
+  background-color: rgb(231, 231, 203);
+}
+
+.red {
+  background-color: rgb(243, 152, 152);
+}
+
+.blue {
+  background-color: #9fc9f0;
+}
+
+.textyellow {
+  color: rgb(246, 246, 9);
+}
+
+.textred {
+  color: rgb(247, 3, 3);
+}
+
+.textblue {
+  color: #0583f9;
 }

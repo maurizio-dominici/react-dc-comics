@@ -1,9 +1,15 @@
+import Alert from "../ui/Alert";
+
 export default function MainContent() {
   return (
     <div className="main-content">
       <div className="container">
         <div className="row">
-          <h2>--&gt; Content goes here &lt;--</h2>
+          <Alert
+            text={"messaggio di errore"}
+            colorText={"red"}
+            bgColor={"red"}
+          />
         </div>
       </div>
     </div>
