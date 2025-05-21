@@ -161,10 +161,51 @@ header a {
   background-image: url("/footer-bg.jpg");
 }
 
+#references .row {
+  justify-content: space-between;
+}
+
 #references h4 {
   color: white;
+  padding: 10px;
+}
+
+#list-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#list-group li {
+  color: #5b5b5b;
+  font-size: 0.8rem;
 }
 
 #socials {
   background-color: #303030;
+  padding: 20px 0;
+}
+
+#socials .row {
+  justify-content: space-between;
+  display: flex;
+}
+
+#socials .sing-up {
+  padding: 20px;
+  border: #0282f9, 2px, solid;
+}
+
+#socials .sing-up a {
+  color: white;
+}
+
+#socials .icons {
+  display: flex;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#socials .icons h5 {
+  color: #0282f9;
 }
