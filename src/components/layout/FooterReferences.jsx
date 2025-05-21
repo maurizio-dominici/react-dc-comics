@@ -11,6 +11,9 @@ export default function FooterReferences() {
                 <li>Lorem.</li>
                 <li>Lorem.</li>
                 <li>Lorem.</li>
+                <li>Lorem.</li>
+                <li>Lorem.</li>
+                <li>Lorem.</li>
               </ul>
             </div>
 
@@ -42,9 +45,7 @@ export default function FooterReferences() {
               </ul>
             </div>
           </div>
-          <div className="col-1-3">
-            <img src="/dc-logo-bg.png" alt="" />
-          </div>
+          <div className="col-1-3"></div>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="page-header">
+    <header id="page-header">
       <div className="container">
         <div className="row">
           <div className="col-1-5">
@@ -10,34 +10,34 @@ export default function Header() {
             <nav>
               <ul>
                 <li>
-                  <a href="#">charaters</a>
+                  <a href="#">CHARATTERS</a>
                 </li>
                 <li className="active">
-                  <a href="#">comics</a>
+                  <a href="#">COMICS</a>
                 </li>
                 <li>
-                  <a href="#">moovie</a>
+                  <a href="#">MOOVIE</a>
                 </li>
                 <li>
-                  <a href="#">tv</a>
+                  <a href="#">TV</a>
                 </li>
                 <li>
-                  <a href="#">games</a>
+                  <a href="#">GAMES</a>
                 </li>
                 <li>
-                  <a href="#">video</a>
+                  <a href="#">VIDEO</a>
                 </li>
                 <li>
-                  <a href="#">fans</a>
+                  <a href="#">FANS</a>
                 </li>
                 <li>
-                  <a href="#">news</a>
+                  <a href="#">NEWS</a>
                 </li>
                 <li>
-                  <a href="#">shop</a>
+                  <a href="#">SHOP</a>
                 </li>
                 <li>
-                  <a href="#">collectibles</a>
+                  <a href="#">COLLECTIBLES</a>
                 </li>
               </ul>
             </nav>

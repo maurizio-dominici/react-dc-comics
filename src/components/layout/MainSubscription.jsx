@@ -1,6 +1,6 @@
 export default function MainSubscription() {
   return (
-    <div className="main-subscription">
+    <div id="main-subscription">
       <div className="container">
         <div className="row">
           <div className="image-links">
