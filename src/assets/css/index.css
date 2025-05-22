@@ -83,6 +83,10 @@ ul {
   width: calc(100% / 5);
 }
 
+.col-1-1 {
+  width: 100%;
+}
+
 /* ^HEADER */
 #page-header {
   padding-top: 20px;
@@ -125,6 +129,28 @@ ul {
   color: #666a61;
 }
 
+#header-jumbotron {
+  position: relative;
+  background-image: url("/jumbotron.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: top;
+}
+
+#header-jumbotron .button-posts {
+  position: absolute;
+  bottom: -20px;
+  background-color: #0282f9;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
 /* ^MAIN */
 #main-content {
   padding-top: 50px;
@@ -139,6 +165,24 @@ ul {
 
 #main-content .card {
   width: 160px;
+}
+
+#main-content .col-1-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#main-content .button-posts {
+  background-color: #0282f9;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+#main-content .button-posts a {
+  color: white;
+  font-size: 0.9rem;
 }
 
 #main-subscription {
