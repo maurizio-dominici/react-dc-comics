@@ -1,10 +1,8 @@
 // Imports react
 import Header from "./components/layout/header/Header";
-import MainContent from "./components/layout/main/MainContent";
-import MainSubscription from "./components/layout/main/MainSubscription";
-import FooterReferences from "./components/layout/footer/FooterReferences";
-import FooterSocials from "./components/layout/footer/FooterSocials";
 import Alert from "./components/ui/Alert";
+import Main from "./components/layout/main/Main";
+import Footer from "./components/layout/footer/Footer";
 
 // Imports data
 import mainContentComics from "./data/comics";
@@ -21,10 +19,8 @@ export default function App() {
           <h1>errore</h1>
         </Alert>
       )}
-      <MainContent comics={mainContentComics} />
-      <MainSubscription />
-      <FooterReferences />
-      <FooterSocials />
+      <Main mainContentComics={mainContentComics} />
+      <Footer />
     </>
   );
 }

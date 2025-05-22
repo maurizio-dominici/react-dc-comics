@@ -1,6 +1,6 @@
 export default function MainSubscription() {
   return (
-    <div id="main-subscription">
+    <section id="main-subscription">
       <div className="container">
         <div className="row">
           <div className="image-links">
@@ -25,6 +25,6 @@ export default function MainSubscription() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

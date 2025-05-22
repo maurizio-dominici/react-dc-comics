@@ -1,6 +1,6 @@
 export default function FooterReferences() {
   return (
-    <div id="references">
+    <section id="references">
       <div className="container">
         <div className="row">
           <div id="list-group" className="col-1-5">
@@ -48,6 +48,6 @@ export default function FooterReferences() {
           <div className="col-1-3"></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

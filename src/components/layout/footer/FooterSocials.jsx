@@ -1,6 +1,6 @@
 export default function FooterSocials() {
   return (
-    <div id="socials">
+    <section id="socials">
       <div className="container">
         <div className="row">
           <div className="sing-up">
@@ -27,6 +27,6 @@ export default function FooterSocials() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
