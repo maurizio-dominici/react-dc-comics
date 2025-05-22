@@ -1,11 +1,10 @@
-export default function Alert({
-  text = "nothing",
-  colorText = "blue",
-  bgColor = "blue",
-}) {
+export default function Alert({ children, colorText, bgColor }) {
+  const content = children ?? "Si è verificato un errore";
   return (
-    <div className={`minialert ${bgColor}`}>
-      <div className={`color text${colorText}`}>{text}</div>
+    <div className="container">
+      <div className={`minialert ${bgColor || "red"}`}>
+        <div className={`color text${colorText || "red"}`}>{content}</div>
+      </div>
     </div>
   );
 }
