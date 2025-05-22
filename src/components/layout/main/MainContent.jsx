@@ -1,10 +1,11 @@
-import Alert from "../../ui/Alert";
+// Imports
+import ProductList from "../../products/ProductList";
 
-export default function MainContent() {
+export default function MainContent({ comics }) {
   return (
     <div id="main-content">
       <div className="container">
-        <div className="row"></div>
+        <ProductList comics={comics} />
       </div>
     </div>
   );
